@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+.text_gray_bold {
+	font-family: "Microsoft Sans Serif", sans-serif, "MS Sans Serif";
+	font-size: 14px;
+	font-weight: bold;
+	color: #666;
+}
+.text_white_bold {
+	font-family: "Microsoft Sans Serif", sans-serif, "MS Sans Serif";
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+}
+.margin_white {
+	border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-style: inherit;
+	background-image: url(images/white75per.png);
+}
+.text_black_normal{
+	font-family: "Microsoft Sans Serif", sans-serif, "MS Sans Serif";
+	font-size: 14px;
+	font-weight: normal;
+	color: #000;
+	padding: 3px;
+}
+.topic_green {
+	overflow: hidden;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	width: 100%;
+	font-weight: bold;
+	color: #FFF;
+	border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-image: url(images/tab_green.jpg);
+	padding: 3px;
+}
+.topic_purple {
+	overflow: hidden;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	width: 100%;
+	font-weight: bold;
+	color: #FFF;
+	border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-image: url(images/tab_purple.jpg);
+	padding: 3px;
+}
+.topic_yellow {
+	overflow: hidden;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	width: 100%;
+	font-weight: bold;
+	color: #000;
+	border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-image: url(images/tab_yellow.jpg);
+	padding: 3px;
+}
+.menu_index
+{
+	border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background-image: url(images/tab_blue.jpg);
+	width: 100%;
+	font-family: "Microsoft Sans Serif", sans-serif, "MS Sans Serif";
+	font-size: 15px;
+	font-weight: normal;
+	color: #FFF;
+	padding: 5px;
+}
+.menu_index a{
+	color: #FFF;
+	text-decoration: none;
+}
+.menu_index a:hover{
+	color: #FF0;	
+}

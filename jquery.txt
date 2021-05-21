@@ -1,0 +1,10 @@
+sendData = 'getTypedata='+id+'&xid='+Math.random();				   
+var getData=$.ajax({ // ใช้ ajax ด้วย jQuery ดึงข้อมูล
+	url:"?",
+	data:encodeURI(sendData),
+	async:false,
+	success:function(getData){	
+	
+	}
+							
+}).responseText;

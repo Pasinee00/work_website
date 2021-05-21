@@ -1,0 +1,27 @@
+.sliderwrapper2{
+position: relative; /*leave as is*/
+visibility: hidden; /*leave as is*/
+width: 900px; /*width of featured content slider*/
+height: 400px;
+}
+
+
+.sliderwrapper2 .contentdiv{
+position: absolute; /*leave as is*/
+visibility: hidden; /*leave as is*/
+left: 0;  /*leave as is*/
+top: 0;  /*leave as is*/
+background: white;
+width: 890px; /*width of content DIVs within slider. Total width should equal slider's inner width (390+5+5=400) */
+height: 100%;
+filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;
+border-radius: 20px;
+-khtml-border-radius: 20px;
+-moz-border-radius: 20px;
+}
+
+.pagination{
+width: 900px; /*Width of pagination DIV. Total width should equal slider's outer width (400+10+10=420)*/
+}
